@@ -16,12 +16,13 @@ const fs = require('fs');
 
 module.exports = {
   devServer: {
-    host: '192.168.1.100', // Replace with your actual IP
+    host: '22.222.222.222', // Replace with your actual IP
     https: {
       key: fs.readFileSync('./mycert.key'),
       cert: fs.readFileSync('./mycert.crt'),
     },
   },
 };
+
 
 ```
